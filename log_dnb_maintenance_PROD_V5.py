@@ -1,7 +1,7 @@
 import pyodbc
 import datetime
 import os
-#modif
+
 try:
     tmp = datetime.datetime.now().strftime('%y%m%d')
     tmpf = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
